@@ -1,21 +1,21 @@
 class Nemio < Formula
   desc "Simple and Fast Network Mapper"
   homepage "https://github.com/shellrow/nemio"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shellrow/nemio/releases/download/v0.1.0/nemio-aarch64-apple-darwin.tar.xz"
-      sha256 "0c7a8bd3b812f6ffc3792d73bac33965a16258a3c929f9d47eeb240536c38df9"
+      url "https://github.com/shellrow/nemio/releases/download/v0.2.0/nemio-aarch64-apple-darwin.tar.xz"
+      sha256 "d6900c0f1a715a9654af8a27ba2674ec1cf82e30d91a2bb3d0b6beb84ec55efa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nemio/releases/download/v0.1.0/nemio-x86_64-apple-darwin.tar.xz"
-      sha256 "e42a8ede2cea147522b925b99495e7f9be1e7500de5a05ca6b26f5e66ae73b62"
+      url "https://github.com/shellrow/nemio/releases/download/v0.2.0/nemio-x86_64-apple-darwin.tar.xz"
+      sha256 "273e93ed6a81e050408d4d4f50f8f7a467fc7de2eed5a138615d18a1d243feb7"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nemio/releases/download/v0.1.0/nemio-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bd50836ec4218ad33c43988a5867df0315ae8acc724d14decdd6792c48cdd7c2"
+      url "https://github.com/shellrow/nemio/releases/download/v0.2.0/nemio-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "eb9f660ccc2332b8efd22ad4eb07ec2c2d233b17c7a2f53eb73a98e78420a2ab"
     end
   end
   license "MIT"
