@@ -1,21 +1,21 @@
 class Nrev < Formula
   desc "Simple and Fast Network Revealer/Mapper."
   homepage "https://github.com/shellrow/nrev"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shellrow/nrev/releases/download/v0.1.0/nrev-aarch64-apple-darwin.tar.xz"
-      sha256 "173fe3c4ffc1906f94572e4cd6b0b32e26992fcbd35a09b4e5cc60bca35a911a"
+      url "https://github.com/shellrow/nrev/releases/download/v0.2.0/nrev-aarch64-apple-darwin.tar.xz"
+      sha256 "c61d3cd97b74b7d63470ee283c60a12b3fb5b3a1ccf4ab88c1882c0e66147fab"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nrev/releases/download/v0.1.0/nrev-x86_64-apple-darwin.tar.xz"
-      sha256 "5ad70427e7bcfddb76523f10564e4d3d4a34016e76ac95ebfc20aea8af13b9e3"
+      url "https://github.com/shellrow/nrev/releases/download/v0.2.0/nrev-x86_64-apple-darwin.tar.xz"
+      sha256 "75912f1f708b18f30c06a1e69c39f763e1dfc7f6cea78ac7bee69218d3ffb6d4"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nrev/releases/download/v0.1.0/nrev-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8a969901be1d040b19e8e2b4a696b8ad75ca2c62c835715bfcd6db8d8c4df567"
+      url "https://github.com/shellrow/nrev/releases/download/v0.2.0/nrev-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2d5bf497f5de3295a646a9298909ccb24377e227f19a99c21f8674367fd6382f"
     end
   end
   license "MIT"
